@@ -11,6 +11,7 @@ stats = numerical_data.describe().round(2)
 
 print(stats)
 ```
+![statistical analysis](plots_and_outputs/describe.png)
 
 ## LINE GRAPH AND CORRELATION BETWEEN close price ,VWAP, volume
 
@@ -47,6 +48,7 @@ fig.legend(loc="upper left", bbox_to_anchor=(0,1), bbox_transform=ax1.transAxes)
 
 plt.show()
 ```
+![plot](plots_and_outputs/plot1.png)
 ## LINE PLOT AND CORRELATION BETWEEN turnover and trades
 
 ```python
@@ -75,3 +77,4 @@ ax.set_ylim(0, max(new_df['Turnover'].max() / turnover_scale, new_df['Trades'].m
 plt.show()
 
 ```
+![plot](plots_and_outputs/plot2.png)
