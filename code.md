@@ -47,7 +47,7 @@ fig.legend(loc="upper left", bbox_to_anchor=(0,1), bbox_transform=ax1.transAxes)
 
 plt.show()
 ```
-## LINe PLOT AND CORRELATION BETWEEN turnover and trades
+## LINE PLOT AND CORRELATION BETWEEN turnover and trades
 
 ```python
 import numpy as np
